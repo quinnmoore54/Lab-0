@@ -1,0 +1,107 @@
+  
+ 
+  @font-face { 
+    font-family: SeafordBold; 
+    src: url(./font/SeafordBold.ttf); 
+    font-weight: normal; 
+    }    
+    
+  @font-face { 
+    font-family: SeafordRg; 
+    src: url(./font/SeafordRg.ttf); 
+    font-weight: normal; 
+    }
+
+    .container{
+      width: 1000px;
+      background-color: #fff;
+      margin: auto;
+
+    }
+ h1 {
+    color: navy;
+    font-family: 'SeafordBold';
+    text-align: center;
+  }
+
+  h2 {
+    font-family: SeafordRg;
+    color: navy;
+}
+
+  p.myP{
+    color: brown;
+    text-align: justify;
+   text-justify: inter-word;
+  }
+
+  p{
+    font-family: SeafordRg;
+    color: black;
+  }
+
+  p.myP:hover{background-color: #ddd;}
+
+
+ body {
+        font-family: SeafordRg;
+        background-color:white;
+      }
+
+
+
+td {
+    text-align: center;
+  }
+
+
+
+
+  ol:hover{background-color: #ddd;}
+
+ul:hover{background-color: #ddd;}
+
+ol { 
+    list-style: none; 
+    counter-reset: num; 
+} 
+
+ol li { 
+    counter-increment: num; 
+}  
+  ol li::before { 
+    content:counter(num) "."; 
+    color: blue;     
+} 
+
+
+#mytable {
+    font-family: SeafordRg;
+    border-collapse: collapse;
+    width: 30%;
+  }
+  
+  #mytable td, #mytable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #mytable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #mytable tr:hover {background-color: #ddd;}
+  
+  #mytable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: grey;
+    color: white;
+  }
+
+  label { display: inline-block; width: 100px; text-align: right; }
+ 
+ img.myImage{
+  height: 140px;
+  width: 150px;
+  border-radius: 50%;
+ }
